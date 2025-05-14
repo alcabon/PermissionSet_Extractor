@@ -58,239 +58,239 @@ class ComprehensivePermissionSet {
     String profileName; // If IsOwnedByProfile is true
 
     // User Permissions (direct boolean fields from PermissionSet object)  
-    List\<UserPermissionDetail\> userPermissions \= new ArrayList\<\>();
+    List<UserPermissionDetail> userPermissions = new ArrayList<>();
 
     // Detailed Permissions  
-    List\<ObjectPermissionDetail\> objectPermissions \= new ArrayList\<\>();  
-    List\<FieldPermissionDetail\> fieldPermissions \= new ArrayList\<\>();  
-    List\<ApexClassAccessDetail\> apexClassAccesses \= new ArrayList\<\>();  
-    List\<VisualForcePageAccessDetail\> vfPageAccesses \= new ArrayList\<\>();  
-    List\<CustomPermissionAssignmentDetail\> customPermissionAssignments \= new ArrayList\<\>();  
-    List\<ApplicationVisibilityDetail\> applicationVisibilities \= new ArrayList\<\>();  
-    List\<TabSettingDetail\> tabSettings \= new ArrayList\<\>();  
-    List\<ConnectedAppAccessDetail\> connectedAppAccesses \= new ArrayList\<\>();  
-    List\<ServicePresenceStatusAccessDetail\> servicePresenceStatusAccesses \= new ArrayList\<\>();
+    List<ObjectPermissionDetail> objectPermissions = new ArrayList<>();  
+    List<FieldPermissionDetail> fieldPermissions = new ArrayList<>();  
+    List<ApexClassAccessDetail> apexClassAccesses = new ArrayList<>();  
+    List<VisualForcePageAccessDetail> vfPageAccesses = new ArrayList<>();  
+    List<CustomPermissionAssignmentDetail> customPermissionAssignments = new ArrayList<>();  
+    List<ApplicationVisibilityDetail> applicationVisibilities = new ArrayList<>();  
+    List<TabSettingDetail> tabSettings = new ArrayList<>();  
+    List<ConnectedAppAccessDetail> connectedAppAccesses = new ArrayList<>();  
+    List<ServicePresenceStatusAccessDetail> servicePresenceStatusAccesses = new ArrayList<>();
 
     // Constructors, getters, setters omitted for brevity but are essential  
     // Standard getters and setters for all fields should be implemented.  
     // Example:  
     public String getId() { return id; }  
-    public void setId(String id) { this.id \= id; }  
+    public void setId(String id) { this.id = id; }  
     public String getName() { return name; }  
-    public void setName(String name) { this.name \= name; }  
+    public void setName(String name) { this.name = name; }  
     public String getLabel() { return label; }  
-    public void setLabel(String label) { this.label \= label; }  
+    public void setLabel(String label) { this.label = label; }  
     public String getDescription() { return description; }  
-    public void setDescription(String description) { this.description \= description; }  
+    public void setDescription(String description) { this.description = description; }  
     public boolean isCustom() { return isCustom; }  
-    public void setCustom(boolean custom) { isCustom \= custom; }  
+    public void setCustom(boolean custom) { isCustom = custom; }  
     public boolean isOwnedByProfile() { return isOwnedByProfile; }  
-    public void setOwnedByProfile(boolean ownedByProfile) { isOwnedByProfile \= ownedByProfile; }  
+    public void setOwnedByProfile(boolean ownedByProfile) { isOwnedByProfile = ownedByProfile; }  
     public String getType() { return type; }  
-    public void setType(String type) { this.type \= type; }  
+    public void setType(String type) { this.type = type; }  
     public String getNamespacePrefix() { return namespacePrefix; }  
-    public void setNamespacePrefix(String namespacePrefix) { this.namespacePrefix \= namespacePrefix; }  
+    public void setNamespacePrefix(String namespacePrefix) { this.namespacePrefix = namespacePrefix; }  
     public String getLicenseName() { return licenseName; }  
-    public void setLicenseName(String licenseName) { this.licenseName \= licenseName; }  
+    public void setLicenseName(String licenseName) { this.licenseName = licenseName; }  
     public String getProfileName() { return profileName; }  
-    public void setProfileName(String profileName) { this.profileName \= profileName; }  
-    public List\<UserPermissionDetail\> getUserPermissions() { return userPermissions; }  
-    public void setUserPermissions(List\<UserPermissionDetail\> userPermissions) { this.userPermissions \= userPermissions; }  
-    public List\<ObjectPermissionDetail\> getObjectPermissions() { return objectPermissions; }  
-    public void setObjectPermissions(List\<ObjectPermissionDetail\> objectPermissions) { this.objectPermissions \= objectPermissions; }  
-    public List\<FieldPermissionDetail\> getFieldPermissions() { return fieldPermissions; }  
-    public void setFieldPermissions(List\<FieldPermissionDetail\> fieldPermissions) { this.fieldPermissions \= fieldPermissions; }  
-    public List\<ApexClassAccessDetail\> getApexClassAccesses() { return apexClassAccesses; }  
-    public void setApexClassAccesses(List\<ApexClassAccessDetail\> apexClassAccesses) { this.apexClassAccesses \= apexClassAccesses; }  
-    public List\<VisualForcePageAccessDetail\> getVfPageAccesses() { return vfPageAccesses; }  
-    public void setVfPageAccesses(List\<VisualForcePageAccessDetail\> vfPageAccesses) { this.vfPageAccesses \= vfPageAccesses; }  
-    public List\<CustomPermissionAssignmentDetail\> getCustomPermissionAssignments() { return customPermissionAssignments; }  
-    public void setCustomPermissionAssignments(List\<CustomPermissionAssignmentDetail\> customPermissionAssignments) { this.customPermissionAssignments \= customPermissionAssignments; }  
-    public List\<ApplicationVisibilityDetail\> getApplicationVisibilities() { return applicationVisibilities; }  
-    public void setApplicationVisibilities(List\<ApplicationVisibilityDetail\> applicationVisibilities) { this.applicationVisibilities \= applicationVisibilities; }  
-    public List\<TabSettingDetail\> getTabSettings() { return tabSettings; }  
-    public void setTabSettings(List\<TabSettingDetail\> tabSettings) { this.tabSettings \= tabSettings; }  
-    public List\<ConnectedAppAccessDetail\> getConnectedAppAccesses() { return connectedAppAccesses; }  
-    public void setConnectedAppAccesses(List\<ConnectedAppAccessDetail\> connectedAppAccesses) { this.connectedAppAccesses \= connectedAppAccesses; }  
-    public List\<ServicePresenceStatusAccessDetail\> getServicePresenceStatusAccesses() { return servicePresenceStatusAccesses; }  
-    public void setServicePresenceStatusAccesses(List\<ServicePresenceStatusAccessDetail\> servicePresenceStatusAccesses) { this.servicePresenceStatusAccesses \= servicePresenceStatusAccesses; }  
+    public void setProfileName(String profileName) { this.profileName = profileName; }  
+    public List<UserPermissionDetail> getUserPermissions() { return userPermissions; }  
+    public void setUserPermissions(List<UserPermissionDetail> userPermissions) { this.userPermissions = userPermissions; }  
+    public List<ObjectPermissionDetail> getObjectPermissions() { return objectPermissions; }  
+    public void setObjectPermissions(List<ObjectPermissionDetail> objectPermissions) { this.objectPermissions = objectPermissions; }  
+    public List<FieldPermissionDetail> getFieldPermissions() { return fieldPermissions; }  
+    public void setFieldPermissions(List<FieldPermissionDetail> fieldPermissions) { this.fieldPermissions = fieldPermissions; }  
+    public List<ApexClassAccessDetail> getApexClassAccesses() { return apexClassAccesses; }  
+    public void setApexClassAccesses(List<ApexClassAccessDetail> apexClassAccesses) { this.apexClassAccesses = apexClassAccesses; }  
+    public List<VisualForcePageAccessDetail> getVfPageAccesses() { return vfPageAccesses; }  
+    public void setVfPageAccesses(List<VisualForcePageAccessDetail> vfPageAccesses) { this.vfPageAccesses = vfPageAccesses; }  
+    public List<CustomPermissionAssignmentDetail> getCustomPermissionAssignments() { return customPermissionAssignments; }  
+    public void setCustomPermissionAssignments(List<CustomPermissionAssignmentDetail> customPermissionAssignments) { this.customPermissionAssignments = customPermissionAssignments; }  
+    public List<ApplicationVisibilityDetail> getApplicationVisibilities() { return applicationVisibilities; }  
+    public void setApplicationVisibilities(List<ApplicationVisibilityDetail> applicationVisibilities) { this.applicationVisibilities = applicationVisibilities; }  
+    public List<TabSettingDetail> getTabSettings() { return tabSettings; }  
+    public void setTabSettings(List<TabSettingDetail> tabSettings) { this.tabSettings = tabSettings; }  
+    public List<ConnectedAppAccessDetail> getConnectedAppAccesses() { return connectedAppAccesses; }  
+    public void setConnectedAppAccesses(List<ConnectedAppAccessDetail> connectedAppAccesses) { this.connectedAppAccesses = connectedAppAccesses; }  
+    public List<ServicePresenceStatusAccessDetail> getServicePresenceStatusAccesses() { return servicePresenceStatusAccesses; }  
+    public void setServicePresenceStatusAccesses(List<ServicePresenceStatusAccessDetail> servicePresenceStatusAccesses) { this.servicePresenceStatusAccesses = servicePresenceStatusAccesses; }  
 }
 
 class UserPermissionDetail {  
     String apiName; String uiLabel; boolean isEnabled;  
     // Getters/Setters  
     public String getApiName() { return apiName; }  
-    public void setApiName(String apiName) { this.apiName \= apiName; }  
+    public void setApiName(String apiName) { this.apiName = apiName; }  
     public String getUiLabel() { return uiLabel; }  
-    public void setUiLabel(String uiLabel) { this.uiLabel \= uiLabel; }  
+    public void setUiLabel(String uiLabel) { this.uiLabel = uiLabel; }  
     public boolean isEnabled() { return isEnabled; }  
-    public void setEnabled(boolean enabled) { isEnabled \= enabled; }  
+    public void setEnabled(boolean enabled) { isEnabled = enabled; }  
 }  
 class ObjectPermissionDetail {  
     String sobjectType; boolean canRead, canCreate, canEdit, canDelete, canViewAllRecords, canModifyAllRecords;  
-    // Getters/Setters (Ensure all boolean getters are \`isCanRead\`, etc.)  
+    // Getters/Setters (Ensure all boolean getters are `isCanRead`, etc.)  
     public String getSobjectType() { return sobjectType; }  
-    public void setSobjectType(String sobjectType) { this.sobjectType \= sobjectType; }  
+    public void setSobjectType(String sobjectType) { this.sobjectType = sobjectType; }  
     public boolean isCanRead() { return canRead; }  
-    public void setCanRead(boolean canRead) { this.canRead \= canRead; }  
+    public void setCanRead(boolean canRead) { this.canRead = canRead; }  
     public boolean isCanCreate() { return canCreate; }  
-    public void setCanCreate(boolean canCreate) { this.canCreate \= canCreate; }  
+    public void setCanCreate(boolean canCreate) { this.canCreate = canCreate; }  
     public boolean isCanEdit() { return canEdit; }  
-    public void setCanEdit(boolean canEdit) { this.canEdit \= canEdit; }  
+    public void setCanEdit(boolean canEdit) { this.canEdit = canEdit; }  
     public boolean isCanDelete() { return canDelete; }  
-    public void setCanDelete(boolean canDelete) { this.canDelete \= canDelete; }  
+    public void setCanDelete(boolean canDelete) { this.canDelete = canDelete; }  
     public boolean isCanViewAllRecords() { return canViewAllRecords; }  
-    public void setCanViewAllRecords(boolean canViewAllRecords) { this.canViewAllRecords \= canViewAllRecords; }  
+    public void setCanViewAllRecords(boolean canViewAllRecords) { this.canViewAllRecords = canViewAllRecords; }  
     public boolean isCanModifyAllRecords() { return canModifyAllRecords; }  
-    public void setCanModifyAllRecords(boolean canModifyAllRecords) { this.canModifyAllRecords \= canModifyAllRecords; }  
+    public void setCanModifyAllRecords(boolean canModifyAllRecords) { this.canModifyAllRecords = canModifyAllRecords; }  
 }  
 class FieldPermissionDetail {  
     String sobjectType; String fieldApiName; boolean canRead, canEdit;  
     // Getters/Setters  
     public String getSobjectType() { return sobjectType; }  
-    public void setSobjectType(String sobjectType) { this.sobjectType \= sobjectType; }  
+    public void setSobjectType(String sobjectType) { this.sobjectType = sobjectType; }  
     public String getFieldApiName() { return fieldApiName; }  
-    public void setFieldApiName(String fieldApiName) { this.fieldApiName \= fieldApiName; }  
+    public void setFieldApiName(String fieldApiName) { this.fieldApiName = fieldApiName; }  
     public boolean isCanRead() { return canRead; }  
-    public void setCanRead(boolean canRead) { this.canRead \= canRead; }  
+    public void setCanRead(boolean canRead) { this.canRead = canRead; }  
     public boolean isCanEdit() { return canEdit; }  
-    public void setCanEdit(boolean canEdit) { this.canEdit \= canEdit; }  
+    public void setCanEdit(boolean canEdit) { this.canEdit = canEdit; }  
 }  
 class ApexClassAccessDetail {  
     String apexClassId; String apexClassName; String namespacePrefix;  
     // Getters/Setters  
     public String getApexClassId() { return apexClassId; }  
-    public void setApexClassId(String apexClassId) { this.apexClassId \= apexClassId; }  
+    public void setApexClassId(String apexClassId) { this.apexClassId = apexClassId; }  
     public String getApexClassName() { return apexClassName; }  
-    public void setApexClassName(String apexClassName) { this.apexClassName \= apexClassName; }  
+    public void setApexClassName(String apexClassName) { this.apexClassName = apexClassName; }  
     public String getNamespacePrefix() { return namespacePrefix; }  
-    public void setNamespacePrefix(String namespacePrefix) { this.namespacePrefix \= namespacePrefix; }  
+    public void setNamespacePrefix(String namespacePrefix) { this.namespacePrefix = namespacePrefix; }  
 }  
 class VisualForcePageAccessDetail {  
     String vfPageId; String vfPageName; String namespacePrefix;  
     // Getters/Setters  
     public String getVfPageId() { return vfPageId; }  
-    public void setVfPageId(String vfPageId) { this.vfPageId \= vfPageId; }  
+    public void setVfPageId(String vfPageId) { this.vfPageId = vfPageId; }  
     public String getVfPageName() { return vfPageName; }  
-    public void setVfPageName(String vfPageName) { this.vfPageName \= vfPageName; }  
+    public void setVfPageName(String vfPageName) { this.vfPageName = vfPageName; }  
     public String getNamespacePrefix() { return namespacePrefix; }  
-    public void setNamespacePrefix(String namespacePrefix) { this.namespacePrefix \= namespacePrefix; }  
+    public void setNamespacePrefix(String namespacePrefix) { this.namespacePrefix = namespacePrefix; }  
 }  
 class CustomPermissionAssignmentDetail {  
     String customPermissionId; String customPermissionDeveloperName; String customPermissionLabel;  
     // Getters/Setters  
     public String getCustomPermissionId() { return customPermissionId; }  
-    public void setCustomPermissionId(String customPermissionId) { this.customPermissionId \= customPermissionId; }  
+    public void setCustomPermissionId(String customPermissionId) { this.customPermissionId = customPermissionId; }  
     public String getCustomPermissionDeveloperName() { return customPermissionDeveloperName; }  
-    public void setCustomPermissionDeveloperName(String customPermissionDeveloperName) { this.customPermissionDeveloperName \= customPermissionDeveloperName; }  
+    public void setCustomPermissionDeveloperName(String customPermissionDeveloperName) { this.customPermissionDeveloperName = customPermissionDeveloperName; }  
     public String getCustomPermissionLabel() { return customPermissionLabel; }  
-    public void setCustomPermissionLabel(String customPermissionLabel) { this.customPermissionLabel \= customPermissionLabel; }  
+    public void setCustomPermissionLabel(String customPermissionLabel) { this.customPermissionLabel = customPermissionLabel; }  
 }  
 class ApplicationVisibilityDetail {  
     String applicationId; String applicationName; String applicationLabel; String applicationType;  
     // Getters/Setters  
     public String getApplicationId() { return applicationId; }  
-    public void setApplicationId(String applicationId) { this.applicationId \= applicationId; }  
+    public void setApplicationId(String applicationId) { this.applicationId = applicationId; }  
     public String getApplicationName() { return applicationName; }  
-    public void setApplicationName(String applicationName) { this.applicationName \= applicationName; }  
+    public void setApplicationName(String applicationName) { this.applicationName = applicationName; }  
     public String getApplicationLabel() { return applicationLabel; }  
-    public void setApplicationLabel(String applicationLabel) { this.applicationLabel \= applicationLabel; }  
+    public void setApplicationLabel(String applicationLabel) { this.applicationLabel = applicationLabel; }  
     public String getApplicationType() { return applicationType; }  
-    public void setApplicationType(String applicationType) { this.applicationType \= applicationType; }  
+    public void setApplicationType(String applicationType) { this.applicationType = applicationType; }  
 }  
 class TabSettingDetail {  
     String tabNameOrId; String visibility; String tabLabel; // Added TabLabel  
     // Getters/Setters  
     public String getTabNameOrId() { return tabNameOrId; }  
-    public void setTabNameOrId(String tabNameOrId) { this.tabNameOrId \= tabNameOrId; }  
+    public void setTabNameOrId(String tabNameOrId) { this.tabNameOrId = tabNameOrId; }  
     public String getVisibility() { return visibility; }  
-    public void setVisibility(String visibility) { this.visibility \= visibility; }  
+    public void setVisibility(String visibility) { this.visibility = visibility; }  
     public String getTabLabel() { return tabLabel; }  
-    public void setTabLabel(String tabLabel) { this.tabLabel \= tabLabel; }  
+    public void setTabLabel(String tabLabel) { this.tabLabel = tabLabel; }  
 }  
 class ConnectedAppAccessDetail {  
     String connectedAppId; String connectedAppName; String connectedAppLabel;  
     // Getters/Setters  
     public String getConnectedAppId() { return connectedAppId; }  
-    public void setConnectedAppId(String connectedAppId) { this.connectedAppId \= connectedAppId; }  
+    public void setConnectedAppId(String connectedAppId) { this.connectedAppId = connectedAppId; }  
     public String getConnectedAppName() { return connectedAppName; }  
-    public void setConnectedAppName(String connectedAppName) { this.connectedAppName \= connectedAppName; }  
+    public void setConnectedAppName(String connectedAppName) { this.connectedAppName = connectedAppName; }  
     public String getConnectedAppLabel() { return connectedAppLabel; }  
-    public void setConnectedAppLabel(String connectedAppLabel) { this.connectedAppLabel \= connectedAppLabel; }  
+    public void setConnectedAppLabel(String connectedAppLabel) { this.connectedAppLabel = connectedAppLabel; }  
 }  
 class ServicePresenceStatusAccessDetail {  
     String statusId; String statusDeveloperName; String statusMasterLabel;  
     // Getters/Setters  
     public String getStatusId() { return statusId; }  
-    public void setStatusId(String statusId) { this.statusId \= statusId; }  
+    public void setStatusId(String statusId) { this.statusId = statusId; }  
     public String getStatusDeveloperName() { return statusDeveloperName; }  
-    public void setStatusDeveloperName(String statusDeveloperName) { this.statusDeveloperName \= statusDeveloperName; }  
+    public void setStatusDeveloperName(String statusDeveloperName) { this.statusDeveloperName = statusDeveloperName; }  
     public String getStatusMasterLabel() { return statusMasterLabel; }  
-    public void setStatusMasterLabel(String statusMasterLabel) { this.statusMasterLabel \= statusMasterLabel; }  
+    public void setStatusMasterLabel(String statusMasterLabel) { this.statusMasterLabel = statusMasterLabel; }  
 }
 
 public class SalesforcePermissionSetExtractor {
 
     private PartnerConnection connection;  
-    private Map\<String, String\> userPermissionApiToLabelMap;
+    private Map<String, String> userPermissionApiToLabelMap;
 
     public SalesforcePermissionSetExtractor(String username, String password, String authUrl) throws ConnectionException {  
-        ConnectorConfig config \= new ConnectorConfig();  
+        ConnectorConfig config = new ConnectorConfig();  
         config.setUsername(username);  
         config.setPassword(password);  
         config.setAuthEndpoint(authUrl);  
         // For production, consider using config.setSessionId() if you already have a session ID (e.g., from OAuth)  
-        // config.setServiceEndpoint("https://yourInstance.salesforce.com/services/Soap/u/API\_VERSION");  
-        this.connection \= Connector.newConnection(config);  
-        System.out.println("Successfully connected to Salesforce. User: " \+ config.getUsername() \+ ", URL: " \+ connection.getConfig().getServiceEndpoint());  
-        this.userPermissionApiToLabelMap \= fetchUserPermissionLabels();  
+        // config.setServiceEndpoint("https://yourInstance.salesforce.com/services/Soap/u/API_VERSION");  
+        this.connection = Connector.newConnection(config);  
+        System.out.println("Successfully connected to Salesforce. User: " + config.getUsername() + ", URL: " + connection.getConfig().getServiceEndpoint());  
+        this.userPermissionApiToLabelMap = fetchUserPermissionLabels();  
     }
 
-    private Map\<String, String\> fetchUserPermissionLabels() throws ConnectionException {  
-        Map\<String, String\> labelMap \= new HashMap\<\>();  
-        DescribeSObjectResult describeSObjectResult \= connection.describeSObject("PermissionSet");  
+    private Map<String, String> fetchUserPermissionLabels() throws ConnectionException {  
+        Map<String, String> labelMap = new HashMap<>();  
+        DescribeSObjectResult describeSObjectResult = connection.describeSObject("PermissionSet");  
         for (Field field : describeSObjectResult.getFields()) {  
-            if (field.getType() \== FieldType.\_boolean && field.getName().startsWith("Permissions")) {  
+            if (field.getType() == FieldType._boolean && field.getName().startsWith("Permissions")) {  
                 labelMap.put(field.getName(), field.getLabel());  
             }  
         }  
         return labelMap;  
     }
 
-    private List\<SObject\> queryAll(String soql) throws ConnectionException {  
-        List\<SObject\> records \= new ArrayList\<\>();  
-        QueryResult queryResult \= connection.query(soql);  
-        boolean done \= false;  
-        while (\!done) {  
+    private List<SObject> queryAll(String soql) throws ConnectionException {  
+        List<SObject> records = new ArrayList<>();  
+        QueryResult queryResult = connection.query(soql);  
+        boolean done = false;  
+        while (!done) {  
             for (SObject record : queryResult.getRecords()) {  
                 records.add(record);  
             }  
             if (queryResult.isDone()) {  
-                done \= true;  
+                done = true;  
             } else {  
-                queryResult \= connection.queryMore(queryResult.getQueryLocator());  
+                queryResult = connection.queryMore(queryResult.getQueryLocator());  
             }  
         }  
         return records;  
     }
 
-    public List\<ComprehensivePermissionSet\> fetchAllPermissionSetDetails() throws ConnectionException {  
-        List\<ComprehensivePermissionSet\> comprehensivePermissionSets \= new ArrayList\<\>();  
-        Map\<String, ComprehensivePermissionSet\> permSetMapById \= new HashMap\<\>();
+    public List<ComprehensivePermissionSet> fetchAllPermissionSetDetails() throws ConnectionException {  
+        List<ComprehensivePermissionSet> comprehensivePermissionSets = new ArrayList<>();  
+        Map<String, ComprehensivePermissionSet> permSetMapById = new HashMap<>();
 
-        // \--- Query Core PermissionSet Fields and User Permissions \---  
-        StringBuilder psQueryBuilder \= new StringBuilder("SELECT Id, Name, Label, Description, IsCustom, IsOwnedByProfile, Type, NamespacePrefix, License.Name, Profile.Name");  
+        // --- Query Core PermissionSet Fields and User Permissions ---  
+        StringBuilder psQueryBuilder = new StringBuilder("SELECT Id, Name, Label, Description, IsCustom, IsOwnedByProfile, Type, NamespacePrefix, License.Name, Profile.Name");  
         for (String apiName : userPermissionApiToLabelMap.keySet()) {  
             psQueryBuilder.append(", ").append(apiName);  
         }  
         psQueryBuilder.append(" FROM PermissionSet");  
-        // Add a WHERE clause if you want to filter (e.g., WHERE IsCustom \= true)  
-        // psQueryBuilder.append(" WHERE Name \= 'Your\_Test\_PermissionSet\_Name'"); // For testing specific perm set
+        // Add a WHERE clause if you want to filter (e.g., WHERE IsCustom = true)  
+        // psQueryBuilder.append(" WHERE Name = 'Your_Test_PermissionSet_Name'"); // For testing specific perm set
 
-        List\<SObject\> psRecords \= queryAll(psQueryBuilder.toString());
+        List<SObject> psRecords = queryAll(psQueryBuilder.toString());
 
         for (SObject psRecord : psRecords) {  
-            ComprehensivePermissionSet cps \= new ComprehensivePermissionSet();  
+            ComprehensivePermissionSet cps = new ComprehensivePermissionSet();  
             cps.setId((String) psRecord.getId());  
             cps.setName((String) psRecord.getField("Name"));  
             cps.setLabel((String) psRecord.getField("Label"));  
@@ -300,23 +300,23 @@ public class SalesforcePermissionSetExtractor {
             cps.setType((String) psRecord.getField("Type"));  
             cps.setNamespacePrefix((String) psRecord.getField("NamespacePrefix"));
 
-            SObject license \= (SObject) psRecord.getField("License");  
-            if (license \!= null) {  
+            SObject license = (SObject) psRecord.getField("License");  
+            if (license != null) {  
                 cps.setLicenseName((String) license.getField("Name"));  
             }
 
-            SObject profile \= (SObject) psRecord.getField("Profile");  
-            if (profile \!= null) {  
+            SObject profile = (SObject) psRecord.getField("Profile");  
+            if (profile != null) {  
                 cps.setProfileName((String) profile.getField("Name"));  
             }
 
             // Populate UserPermissions  
-            for (Map.Entry\<String, String\> entry : userPermissionApiToLabelMap.entrySet()) {  
-                String apiName \= entry.getKey();  
-                String uiLabel \= entry.getValue();  
-                Boolean isEnabled \= (Boolean) psRecord.getField(apiName);  
-                if (isEnabled \!= null) { // Salesforce returns null if the field wasn't queried or has no value  
-                    UserPermissionDetail upd \= new UserPermissionDetail();  
+            for (Map.Entry<String, String> entry : userPermissionApiToLabelMap.entrySet()) {  
+                String apiName = entry.getKey();  
+                String uiLabel = entry.getValue();  
+                Boolean isEnabled = (Boolean) psRecord.getField(apiName);  
+                if (isEnabled != null) { // Salesforce returns null if the field wasn't queried or has no value  
+                    UserPermissionDetail upd = new UserPermissionDetail();  
                     upd.setApiName(apiName);  
                     upd.setUiLabel(uiLabel);  
                     upd.setEnabled(isEnabled);  
@@ -331,11 +331,11 @@ public class SalesforcePermissionSetExtractor {
             return comprehensivePermissionSets; // No permission sets found or matched filter  
         }
 
-        List\<String\> permissionSetIds \= new ArrayList\<\>(permSetMapById.keySet());
+        List<String> permissionSetIds = new ArrayList<>(permSetMapById.keySet());
 
-        // \--- Query Related Details in Batches if necessary \---  
-        // For simplicity, this example queries all at once. In reality, batch \`permissionSetIds\`.  
-        String joinedIds \= permissionSetIds.stream().map(id \-\> "'" \+ id \+ "'").collect(Collectors.joining(","));
+        // --- Query Related Details in Batches if necessary ---  
+        // For simplicity, this example queries all at once. In reality, batch `permissionSetIds`.  
+        String joinedIds = permissionSetIds.stream().map(id -> "'" + id + "'").collect(Collectors.joining(","));
 
         fetchObjectPermissions(permSetMapById, joinedIds);  
         fetchFieldPermissions(permSetMapById, joinedIds);  
@@ -347,15 +347,15 @@ public class SalesforcePermissionSetExtractor {
         return comprehensivePermissionSets;  
     }
 
-    private void fetchObjectPermissions(Map\<String, ComprehensivePermissionSet\> permSetMapById, String joinedParentIds) throws ConnectionException {  
+    private void fetchObjectPermissions(Map<String, ComprehensivePermissionSet> permSetMapById, String joinedParentIds) throws ConnectionException {  
         if (permSetMapById.isEmpty()) return;  
-        String soql \= "SELECT ParentId, SobjectType, PermissionsRead, PermissionsCreate, PermissionsEdit, PermissionsDelete, PermissionsViewAllRecords, PermissionsModifyAllRecords " \+  
-                      "FROM ObjectPermissions WHERE ParentId IN (" \+ joinedParentIds \+ ")";  
-        List\<SObject\> records \= queryAll(soql);  
+        String soql = "SELECT ParentId, SobjectType, PermissionsRead, PermissionsCreate, PermissionsEdit, PermissionsDelete, PermissionsViewAllRecords, PermissionsModifyAllRecords " +  
+                      "FROM ObjectPermissions WHERE ParentId IN (" + joinedParentIds + ")";  
+        List<SObject> records = queryAll(soql);  
         for (SObject record : records) {  
-            ComprehensivePermissionSet cps \= permSetMapById.get((String) record.getField("ParentId"));  
-            if (cps \!= null) {  
-                ObjectPermissionDetail detail \= new ObjectPermissionDetail();  
+            ComprehensivePermissionSet cps = permSetMapById.get((String) record.getField("ParentId"));  
+            if (cps != null) {  
+                ObjectPermissionDetail detail = new ObjectPermissionDetail();  
                 detail.setSobjectType((String) record.getField("SobjectType"));  
                 detail.setCanRead((Boolean) record.getField("PermissionsRead"));  
                 detail.setCanCreate((Boolean) record.getField("PermissionsCreate"));  
@@ -368,15 +368,15 @@ public class SalesforcePermissionSetExtractor {
         }  
     }
 
-    private void fetchFieldPermissions(Map\<String, ComprehensivePermissionSet\> permSetMapById, String joinedParentIds) throws ConnectionException {  
+    private void fetchFieldPermissions(Map<String, ComprehensivePermissionSet> permSetMapById, String joinedParentIds) throws ConnectionException {  
         if (permSetMapById.isEmpty()) return;  
-        String soql \= "SELECT ParentId, SobjectType, Field, PermissionsRead, PermissionsEdit " \+  
-                      "FROM FieldPermissions WHERE ParentId IN (" \+ joinedParentIds \+ ")";  
-        List\<SObject\> records \= queryAll(soql);  
+        String soql = "SELECT ParentId, SobjectType, Field, PermissionsRead, PermissionsEdit " +  
+                      "FROM FieldPermissions WHERE ParentId IN (" + joinedParentIds + ")";  
+        List<SObject> records = queryAll(soql);  
         for (SObject record : records) {  
-            ComprehensivePermissionSet cps \= permSetMapById.get((String) record.getField("ParentId"));  
-            if (cps \!= null) {  
-                FieldPermissionDetail detail \= new FieldPermissionDetail();  
+            ComprehensivePermissionSet cps = permSetMapById.get((String) record.getField("ParentId"));  
+            if (cps != null) {  
+                FieldPermissionDetail detail = new FieldPermissionDetail();  
                 detail.setSobjectType((String) record.getField("SobjectType"));  
                 detail.setFieldApiName((String) record.getField("Field")); // This is SobjectType.FieldName  
                 detail.setCanRead((Boolean) record.getField("PermissionsRead"));  
@@ -386,43 +386,43 @@ public class SalesforcePermissionSetExtractor {
         }  
     }
 
-    private void fetchSetupEntityAccessDetails(Map\<String, ComprehensivePermissionSet\> permSetMapById, String joinedParentIds) throws ConnectionException {  
+    private void fetchSetupEntityAccessDetails(Map<String, ComprehensivePermissionSet> permSetMapById, String joinedParentIds) throws ConnectionException {  
         if (permSetMapById.isEmpty()) return;  
-        String soql \= "SELECT ParentId, SetupEntityId, SetupEntityType FROM SetupEntityAccess " \+  
-                      "WHERE ParentId IN (" \+ joinedParentIds \+ ") AND " \+  
+        String soql = "SELECT ParentId, SetupEntityId, SetupEntityType FROM SetupEntityAccess " +  
+                      "WHERE ParentId IN (" + joinedParentIds + ") AND " +  
                       "SetupEntityType IN ('ApexClass', 'ApexPage', 'CustomPermission', 'ConnectedApplication')"; // Add other types if needed
 
-        List\<SObject\> seaRecords \= queryAll(soql);  
+        List<SObject> seaRecords = queryAll(soql);  
         if (seaRecords.isEmpty()) return;
 
-        Map\<String, List\<SObject\>\> seaByParentIdAndType \= seaRecords.stream()  
-            .collect(Collectors.groupingBy(sea \-\> (String)sea.getField("ParentId") \+ "\_" \+ (String)sea.getField("SetupEntityType")));
+        Map<String, List<SObject>> seaByParentIdAndType = seaRecords.stream()  
+            .collect(Collectors.groupingBy(sea -> (String)sea.getField("ParentId") + "_" + (String)sea.getField("SetupEntityType")));
 
         // Collect all SetupEntityIds by type  
-        Map\<String, List\<String\>\> idsToQueryByType \= new HashMap\<\>();  
+        Map<String, List<String>> idsToQueryByType = new HashMap<>();  
         for (SObject sea : seaRecords) {  
-            idsToQueryByType.computeIfAbsent((String) sea.getField("SetupEntityType"), k \-\> new ArrayList\<\>())  
+            idsToQueryByType.computeIfAbsent((String) sea.getField("SetupEntityType"), k -> new ArrayList<>())  
                            .add((String) sea.getField("SetupEntityId"));  
         }
 
         // Fetch details for each type  
-        Map\<String, SObject\> apexClassDetails \= fetchDetailsByIds("ApexClass", "Id, Name, NamespacePrefix", idsToQueryByType.get("ApexClass"));  
-        Map\<String, SObject\> apexPageDetails \= fetchDetailsByIds("ApexPage", "Id, Name, NamespacePrefix", idsToQueryByType.get("ApexPage"));  
-        Map\<String, SObject\> customPermissionDetails \= fetchDetailsByIds("CustomPermission", "Id, DeveloperName, MasterLabel", idsToQueryByType.get("CustomPermission"));  
-        Map\<String, SObject\> connectedAppDetails \= fetchDetailsByIds("ConnectedApplication", "Id, Name, Label", idsToQueryByType.get("ConnectedApplication"));
+        Map<String, SObject> apexClassDetails = fetchDetailsByIds("ApexClass", "Id, Name, NamespacePrefix", idsToQueryByType.get("ApexClass"));  
+        Map<String, SObject> apexPageDetails = fetchDetailsByIds("ApexPage", "Id, Name, NamespacePrefix", idsToQueryByType.get("ApexPage"));  
+        Map<String, SObject> customPermissionDetails = fetchDetailsByIds("CustomPermission", "Id, DeveloperName, MasterLabel", idsToQueryByType.get("CustomPermission"));  
+        Map<String, SObject> connectedAppDetails = fetchDetailsByIds("ConnectedApplication", "Id, Name, Label", idsToQueryByType.get("ConnectedApplication"));
 
         for (SObject seaRecord : seaRecords) {  
-            String parentId \= (String) seaRecord.getField("ParentId");  
-            String setupEntityId \= (String) seaRecord.getField("SetupEntityId");  
-            String setupEntityType \= (String) seaRecord.getField("SetupEntityType");  
-            ComprehensivePermissionSet cps \= permSetMapById.get(parentId);
+            String parentId = (String) seaRecord.getField("ParentId");  
+            String setupEntityId = (String) seaRecord.getField("SetupEntityId");  
+            String setupEntityType = (String) seaRecord.getField("SetupEntityType");  
+            ComprehensivePermissionSet cps = permSetMapById.get(parentId);
 
-            if (cps \!= null) {  
+            if (cps != null) {  
                 switch (setupEntityType) {  
                     case "ApexClass":  
-                        SObject ac \= apexClassDetails.get(setupEntityId);  
-                        if (ac \!= null) {  
-                            ApexClassAccessDetail detail \= new ApexClassAccessDetail();  
+                        SObject ac = apexClassDetails.get(setupEntityId);  
+                        if (ac != null) {  
+                            ApexClassAccessDetail detail = new ApexClassAccessDetail();  
                             detail.setApexClassId(setupEntityId);  
                             detail.setApexClassName((String) ac.getField("Name"));  
                             detail.setNamespacePrefix((String) ac.getField("NamespacePrefix"));  
@@ -430,9 +430,9 @@ public class SalesforcePermissionSetExtractor {
                         }  
                         break;  
                     case "ApexPage":  
-                        SObject ap \= apexPageDetails.get(setupEntityId);  
-                        if (ap \!= null) {  
-                            VisualForcePageAccessDetail detail \= new VisualForcePageAccessDetail();  
+                        SObject ap = apexPageDetails.get(setupEntityId);  
+                        if (ap != null) {  
+                            VisualForcePageAccessDetail detail = new VisualForcePageAccessDetail();  
                             detail.setVfPageId(setupEntityId);  
                             detail.setVfPageName((String) ap.getField("Name"));  
                             detail.setNamespacePrefix((String) ap.getField("NamespacePrefix"));  
@@ -440,9 +440,9 @@ public class SalesforcePermissionSetExtractor {
                         }  
                         break;  
                     case "CustomPermission":  
-                        SObject cp \= customPermissionDetails.get(setupEntityId);  
-                        if (cp \!= null) {  
-                            CustomPermissionAssignmentDetail detail \= new CustomPermissionAssignmentDetail();  
+                        SObject cp = customPermissionDetails.get(setupEntityId);  
+                        if (cp != null) {  
+                            CustomPermissionAssignmentDetail detail = new CustomPermissionAssignmentDetail();  
                             detail.setCustomPermissionId(setupEntityId);  
                             detail.setCustomPermissionDeveloperName((String) cp.getField("DeveloperName"));  
                             detail.setCustomPermissionLabel((String) cp.getField("MasterLabel"));  
@@ -450,9 +450,9 @@ public class SalesforcePermissionSetExtractor {
                         }  
                         break;  
                     case "ConnectedApplication":  
-                        SObject ca \= connectedAppDetails.get(setupEntityId);  
-                        if (ca \!= null) {  
-                            ConnectedAppAccessDetail detail \= new ConnectedAppAccessDetail();  
+                        SObject ca = connectedAppDetails.get(setupEntityId);  
+                        if (ca != null) {  
+                            ConnectedAppAccessDetail detail = new ConnectedAppAccessDetail();  
                             detail.setConnectedAppId(setupEntityId);  
                             detail.setConnectedAppName((String) ca.getField("Name"));  
                             detail.setConnectedAppLabel((String) ca.getField("Label"));  
@@ -464,21 +464,21 @@ public class SalesforcePermissionSetExtractor {
         }  
     }
 
-    private Map\<String, SObject\> fetchDetailsByIds(String sObjectType, String fields, List\<String\> ids) throws ConnectionException {  
-        Map\<String, SObject\> detailsMap \= new HashMap\<\>();  
-        if (ids \== null || ids.isEmpty()) return detailsMap;
+    private Map<String, SObject> fetchDetailsByIds(String sObjectType, String fields, List<String> ids) throws ConnectionException {  
+        Map<String, SObject> detailsMap = new HashMap<>();  
+        if (ids == null || ids.isEmpty()) return detailsMap;
 
         // Deduplicate IDs before querying  
-        List\<String\> distinctIds \= ids.stream().distinct().collect(Collectors.toList());  
+        List<String> distinctIds = ids.stream().distinct().collect(Collectors.toList());  
         if (distinctIds.isEmpty()) return detailsMap;
 
-        // Batch IDs if necessary (SOQL IN clause limit is high, but good practice for \> 2000 IDs for some contexts)  
-        int batchSize \= 200; // Adjust as needed, can be much larger for IDs  
-        for (int i \= 0; i \< distinctIds.size(); i \+= batchSize) {  
-            List\<String\> subList \= distinctIds.subList(i, Math.min(i \+ batchSize, distinctIds.size()));  
-            String joinedEntityIds \= subList.stream().map(id \-\> "'" \+ id \+ "'").collect(Collectors.joining(","));  
-            String soql \= "SELECT " \+ fields \+ " FROM " \+ sObjectType \+ " WHERE Id IN (" \+ joinedEntityIds \+ ")";  
-            List\<SObject\> records \= queryAll(soql);  
+        // Batch IDs if necessary (SOQL IN clause limit is high, but good practice for > 2000 IDs for some contexts)  
+        int batchSize = 200; // Adjust as needed, can be much larger for IDs  
+        for (int i = 0; i < distinctIds.size(); i += batchSize) {  
+            List<String> subList = distinctIds.subList(i, Math.min(i + batchSize, distinctIds.size()));  
+            String joinedEntityIds = subList.stream().map(id -> "'" + id + "'").collect(Collectors.joining(","));  
+            String soql = "SELECT " + fields + " FROM " + sObjectType + " WHERE Id IN (" + joinedEntityIds + ")";  
+            List<SObject> records = queryAll(soql);  
             for (SObject record : records) {  
                 detailsMap.put((String) record.getId(), record);  
             }  
@@ -486,51 +486,51 @@ public class SalesforcePermissionSetExtractor {
         return detailsMap;  
     }
 
-    private void fetchTabSettings(Map\<String, ComprehensivePermissionSet\> permSetMapById, String joinedParentIds) throws ConnectionException {  
+    private void fetchTabSettings(Map<String, ComprehensivePermissionSet> permSetMapById, String joinedParentIds) throws ConnectionException {  
         if (permSetMapById.isEmpty()) return;  
-        String soql \= "SELECT ParentId, Name, Visibility FROM PermissionSetTabSetting WHERE ParentId IN (" \+ joinedParentIds \+ ")";  
-        List\<SObject\> records \= queryAll(soql);  
+        String soql = "SELECT ParentId, Name, Visibility FROM PermissionSetTabSetting WHERE ParentId IN (" + joinedParentIds + ")";  
+        List<SObject> records = queryAll(soql);  
         if (records.isEmpty()) return;
 
-        List\<String\> tabDefinitionIds \= records.stream()  
-                                            .map(r \-\> (String)r.getField("Name"))  
+        List<String> tabDefinitionIds = records.stream()  
+                                            .map(r -> (String)r.getField("Name"))  
                                             .distinct()  
                                             .collect(Collectors.toList());  
-        Map\<String, SObject\> tabDefinitions \= fetchDetailsByIds("TabDefinition", "Id, Label, SobjectName, Name", tabDefinitionIds);
+        Map<String, SObject> tabDefinitions = fetchDetailsByIds("TabDefinition", "Id, Label, SobjectName, Name", tabDefinitionIds);
 
         for (SObject record : records) {  
-            ComprehensivePermissionSet cps \= permSetMapById.get((String) record.getField("ParentId"));  
-            if (cps \!= null) {  
-                TabSettingDetail detail \= new TabSettingDetail();  
-                String tabDefApiName \= (String) record.getField("Name"); // This is the API name of the TabDefinition  
+            ComprehensivePermissionSet cps = permSetMapById.get((String) record.getField("ParentId"));  
+            if (cps != null) {  
+                TabSettingDetail detail = new TabSettingDetail();  
+                String tabDefApiName = (String) record.getField("Name"); // This is the API name of the TabDefinition  
                 detail.setTabNameOrId(tabDefApiName);  
                 detail.setVisibility((String) record.getField("Visibility"));
 
-                SObject tabDef \= tabDefinitions.values().stream() // TabDefinition.Name is API name, Id is Id.  
-                                     .filter(td \-\> tabDefApiName.equals((String)td.getField("Name")) || tabDefApiName.equals((String)td.getId()))  
+                SObject tabDef = tabDefinitions.values().stream() // TabDefinition.Name is API name, Id is Id.  
+                                     .filter(td -> tabDefApiName.equals((String)td.getField("Name")) || tabDefApiName.equals((String)td.getId()))  
                                      .findFirst().orElse(null);
 
-                if(tabDef \!= null){  
+                if(tabDef != null){  
                     detail.setTabLabel((String) tabDef.getField("Label"));  
                 } else {  
                     detail.setTabLabel(tabDefApiName); // Fallback  
                 }  
                 cps.getTabSettings().add(detail);
 
-                // Basic Application Visibility from Tabs (for custom apps where tab name \= app name)  
+                // Basic Application Visibility from Tabs (for custom apps where tab name = app name)  
                 // This is a simplification. True app visibility can be more complex.  
-                if (tabDef \!= null && "Visible".equals(detail.getVisibility())) {  
-                    String sObjectName \= (String) tabDef.getField("SobjectName");  
-                    if (sObjectName \== null) { // It might be a custom app tab, VF tab, etc.  
+                if (tabDef != null && "Visible".equals(detail.getVisibility())) {  
+                    String sObjectName = (String) tabDef.getField("SobjectName");  
+                    if (sObjectName == null) { // It might be a custom app tab, VF tab, etc.  
                         // Attempt to infer application from tab label or name if it's a primary app tab  
                         // This part is heuristic and might need refinement based on how apps are named/structured.  
-                        ApplicationVisibilityDetail appDetail \= new ApplicationVisibilityDetail();  
+                        ApplicationVisibilityDetail appDetail = new ApplicationVisibilityDetail();  
                         appDetail.setApplicationId((String)tabDef.getId()); // Using TabDefinitionId as a proxy  
                         appDetail.setApplicationName((String)tabDef.getField("Name")); // API Name  
                         appDetail.setApplicationLabel((String)tabDef.getField("Label"));  
                         appDetail.setApplicationType("Inferred from Tab"); // Indicate heuristic nature  
                         // Check for duplicates before adding  
-                        if(cps.getApplicationVisibilities().stream().noneMatch(a \-\> a.applicationId.equals(appDetail.applicationId))) {  
+                        if(cps.getApplicationVisibilities().stream().noneMatch(a -> a.applicationId.equals(appDetail.applicationId))) {  
                            // cps.getApplicationVisibilities().add(appDetail); // Decided to keep ApplicationVisibility separate  
                         }  
                     }  
@@ -545,20 +545,20 @@ public class SalesforcePermissionSetExtractor {
         // For now, I'll leave ApplicationVisibilities to be populated by a more dedicated method if needed.  
     }
 
-    private void fetchServicePresenceStatusAccesses(Map\<String, ComprehensivePermissionSet\> permSetMapById, String joinedParentIds) throws ConnectionException {  
+    private void fetchServicePresenceStatusAccesses(Map<String, ComprehensivePermissionSet> permSetMapById, String joinedParentIds) throws ConnectionException {  
         if (permSetMapById.isEmpty()) return;  
         // Querying through the relationship to get fields from ServicePresenceStatus directly  
-        String soql \= "SELECT ParentId, ServicePresenceStatusId, ServicePresenceStatus.DeveloperName, ServicePresenceStatus.MasterLabel " \+  
-                      "FROM ServicePresenceStatusAccess WHERE ParentId IN (" \+ joinedParentIds \+ ")";  
-        List\<SObject\> records \= queryAll(soql);  
+        String soql = "SELECT ParentId, ServicePresenceStatusId, ServicePresenceStatus.DeveloperName, ServicePresenceStatus.MasterLabel " +  
+                      "FROM ServicePresenceStatusAccess WHERE ParentId IN (" + joinedParentIds + ")";  
+        List<SObject> records = queryAll(soql);  
         for (SObject record : records) {  
-            ComprehensivePermissionSet cps \= permSetMapById.get((String) record.getField("ParentId"));  
-            if (cps \!= null) {  
-                ServicePresenceStatusAccessDetail detail \= new ServicePresenceStatusAccessDetail();  
+            ComprehensivePermissionSet cps = permSetMapById.get((String) record.getField("ParentId"));  
+            if (cps != null) {  
+                ServicePresenceStatusAccessDetail detail = new ServicePresenceStatusAccessDetail();  
                 detail.setStatusId((String) record.getField("ServicePresenceStatusId"));
 
-                SObject relatedStatus \= (SObject) record.getField("ServicePresenceStatus"); // Get the related SObject  
-                if (relatedStatus \!= null) {  
+                SObject relatedStatus = (SObject) record.getField("ServicePresenceStatus"); // Get the related SObject  
+                if (relatedStatus != null) {  
                     detail.setStatusDeveloperName((String) relatedStatus.getField("DeveloperName"));  
                     detail.setStatusMasterLabel((String) relatedStatus.getField("MasterLabel"));  
                 }  
@@ -567,110 +567,110 @@ public class SalesforcePermissionSetExtractor {
         }  
     }
 
-    public static void main(String\[\] args) {  
+    public static void main(String[] args) {  
         // Replace with your actual credentials and auth URL  
         // Auth URL for login.salesforce.com: "https://login.salesforce.com/services/Soap/u/XX.0" (replace XX.0 with API version e.g., 58.0)  
         // Auth URL for test.salesforce.com: "https://test.salesforce.com/services/Soap/u/XX.0"  
-        String username \= "YOUR\_SALESFORCE\_USERNAME";  
-        String passwordAndToken \= "YOUR\_SALESFORCE\_PASSWORD" \+ "YOUR\_SECURITY\_TOKEN\_IF\_NEEDED";  
-        String authUrl \= "https://YOUR\_DOMAIN.my.salesforce.com/services/Soap/u/59.0"; // Or login.salesforce.com
+        String username = "YOUR_SALESFORCE_USERNAME";  
+        String passwordAndToken = "YOUR_SALESFORCE_PASSWORD" + "YOUR_SECURITY_TOKEN_IF_NEEDED";  
+        String authUrl = "https://YOUR_DOMAIN.my.salesforce.com/services/Soap/u/59.0"; // Or login.salesforce.com
 
-        // \--- WARNING \---  
+        // --- WARNING ---  
         // Storing credentials directly in code is highly discouraged for production systems.  
         // Use environment variables, configuration files with appropriate permissions,  
         // or ideally, OAuth 2.0 flows (JWT Bearer, Authorization Code, etc.).  
         // This is for demonstration purposes only.  
-        // \--- END WARNING \---
+        // --- END WARNING ---
 
-        if ("YOUR\_SALESFORCE\_USERNAME".equals(username) || authUrl.contains("YOUR\_DOMAIN")) {  
+        if ("YOUR_SALESFORCE_USERNAME".equals(username) || authUrl.contains("YOUR_DOMAIN")) {  
             System.err.println("Please update Salesforce credentials and auth URL in the main method before running.");  
             return;  
         }
 
         try {  
-            SalesforcePermissionSetExtractor extractor \= new SalesforcePermissionSetExtractor(username, passwordAndToken, authUrl);  
-            List\<ComprehensivePermissionSet\> allDetails \= extractor.fetchAllPermissionSetDetails();
+            SalesforcePermissionSetExtractor extractor = new SalesforcePermissionSetExtractor(username, passwordAndToken, authUrl);  
+            List<ComprehensivePermissionSet> allDetails = extractor.fetchAllPermissionSetDetails();
 
-            System.out.println("\\n--- Extracted Permission Set Details \---");  
+            System.out.println("n--- Extracted Permission Set Details ---");  
             for (ComprehensivePermissionSet cps : allDetails) {  
-                System.out.println("\\n=======================================================");  
-                System.out.println("Permission Set: " \+ cps.getName() \+ " (ID: " \+ cps.getId() \+ ", Label: " \+ cps.getLabel() \+ ")");  
-                System.out.println("  Is Custom: " \+ cps.isCustom() \+ ", Type: " \+ cps.getType());  
-                if (cps.getLicenseName() \!= null) System.out.println("  License: " \+ cps.getLicenseName());  
-                if (cps.isOwnedByProfile() && cps.getProfileName() \!= null) System.out.println("  Owned by Profile: " \+ cps.getProfileName());
+                System.out.println("n=======================================================");  
+                System.out.println("Permission Set: " + cps.getName() + " (ID: " + cps.getId() + ", Label: " + cps.getLabel() + ")");  
+                System.out.println("  Is Custom: " + cps.isCustom() + ", Type: " + cps.getType());  
+                if (cps.getLicenseName() != null) System.out.println("  License: " + cps.getLicenseName());  
+                if (cps.isOwnedByProfile() && cps.getProfileName() != null) System.out.println("  Owned by Profile: " + cps.getProfileName());
 
-                System.out.println("  User Permissions (" \+ cps.getUserPermissions().size() \+ "):");  
+                System.out.println("  User Permissions (" + cps.getUserPermissions().size() + "):");  
                 cps.getUserPermissions().stream().filter(UserPermissionDetail::isEnabled).limit(5) // Show only enabled, limit for brevity  
-                    .forEach(up \-\> System.out.println("    \- " \+ up.getUiLabel() \+ " (API: " \+ up.getApiName() \+ "): " \+ up.isEnabled()));  
-                if (cps.getUserPermissions().stream().filter(UserPermissionDetail::isEnabled).count() \> 5\) System.out.println("    ... and more.");
+                    .forEach(up -> System.out.println("    - " + up.getUiLabel() + " (API: " + up.getApiName() + "): " + up.isEnabled()));  
+                if (cps.getUserPermissions().stream().filter(UserPermissionDetail::isEnabled).count() > 5) System.out.println("    ... and more.");
 
-                System.out.println("  Object Permissions (" \+ cps.getObjectPermissions().size() \+ "):");  
-                cps.getObjectPermissions().stream().limit(3).forEach(op \-\>  
-                    System.out.println("    \- Object: " \+ op.getSobjectType() \+  
-                                       " (R:" \+ op.isCanRead() \+ " C:" \+ op.isCanCreate() \+ " E:" \+ op.isCanEdit() \+ " D:" \+ op.isCanDelete() \+  
-                                       " VA:" \+ op.isCanViewAllRecords() \+ " MA:" \+ op.isCanModifyAllRecords() \+ ")")  
+                System.out.println("  Object Permissions (" + cps.getObjectPermissions().size() + "):");  
+                cps.getObjectPermissions().stream().limit(3).forEach(op ->  
+                    System.out.println("    - Object: " + op.getSobjectType() +  
+                                       " (R:" + op.isCanRead() + " C:" + op.isCanCreate() + " E:" + op.isCanEdit() + " D:" + op.isCanDelete() +  
+                                       " VA:" + op.isCanViewAllRecords() + " MA:" + op.isCanModifyAllRecords() + ")")  
                 );  
-                 if (cps.getObjectPermissions().size() \> 3\) System.out.println("    ... and more.");
+                 if (cps.getObjectPermissions().size() > 3) System.out.println("    ... and more.");
 
-                System.out.println("  Field Permissions (" \+ cps.getFieldPermissions().size() \+ "):");  
-                cps.getFieldPermissions().stream().limit(3).forEach(fp \-\>  
-                    System.out.println("    \- Field: " \+ fp.getFieldApiName() \+ " (R:" \+ fp.isCanRead() \+ " E:" \+ fp.isCanEdit() \+ ")")  
+                System.out.println("  Field Permissions (" + cps.getFieldPermissions().size() + "):");  
+                cps.getFieldPermissions().stream().limit(3).forEach(fp ->  
+                    System.out.println("    - Field: " + fp.getFieldApiName() + " (R:" + fp.isCanRead() + " E:" + fp.isCanEdit() + ")")  
                 );  
-                if (cps.getFieldPermissions().size() \> 3\) System.out.println("    ... and more.");
+                if (cps.getFieldPermissions().size() > 3) System.out.println("    ... and more.");
 
-                System.out.println("  Apex Class Accesses (" \+ cps.getApexClassAccesses().size() \+ "):");  
-                cps.getApexClassAccesses().stream().limit(3).forEach(ac \-\>  
-                    System.out.println("    \- Class: " \+ (ac.getNamespacePrefix() \!= null ? ac.getNamespacePrefix() \+ "\_\_" : "") \+ ac.getApexClassName())  
+                System.out.println("  Apex Class Accesses (" + cps.getApexClassAccesses().size() + "):");  
+                cps.getApexClassAccesses().stream().limit(3).forEach(ac ->  
+                    System.out.println("    - Class: " + (ac.getNamespacePrefix() != null ? ac.getNamespacePrefix() + "__" : "") + ac.getApexClassName())  
                 );  
-                 if (cps.getApexClassAccesses().size() \> 3\) System.out.println("    ... and more.");
+                 if (cps.getApexClassAccesses().size() > 3) System.out.println("    ... and more.");
 
-                System.out.println("  VisualForce Page Accesses (" \+ cps.getVfPageAccesses().size() \+ "):");  
-                cps.getVfPageAccesses().stream().limit(3).forEach(vf \-\>  
-                    System.out.println("    \- Page: " \+ (vf.getNamespacePrefix() \!= null ? vf.getNamespacePrefix() \+ "\_\_" : "") \+ vf.getVfPageName())  
+                System.out.println("  VisualForce Page Accesses (" + cps.getVfPageAccesses().size() + "):");  
+                cps.getVfPageAccesses().stream().limit(3).forEach(vf ->  
+                    System.out.println("    - Page: " + (vf.getNamespacePrefix() != null ? vf.getNamespacePrefix() + "__" : "") + vf.getVfPageName())  
                 );  
-                if (cps.getVfPageAccesses().size() \> 3\) System.out.println("    ... and more.");
+                if (cps.getVfPageAccesses().size() > 3) System.out.println("    ... and more.");
 
-                System.out.println("  Custom Permission Assignments ("+ cps.getCustomPermissionAssignments().size() \+"):");  
-                cps.getCustomPermissionAssignments().stream().limit(3).forEach(cp \-\>  
-                    System.out.println("    \- Custom Perm: " \+ cp.getCustomPermissionLabel() \+ " (" \+ cp.getCustomPermissionDeveloperName() \+ ")")  
+                System.out.println("  Custom Permission Assignments ("+ cps.getCustomPermissionAssignments().size() +"):");  
+                cps.getCustomPermissionAssignments().stream().limit(3).forEach(cp ->  
+                    System.out.println("    - Custom Perm: " + cp.getCustomPermissionLabel() + " (" + cp.getCustomPermissionDeveloperName() + ")")  
                 );  
-                if (cps.getCustomPermissionAssignments().size() \> 3\) System.out.println("    ... and more.");
+                if (cps.getCustomPermissionAssignments().size() > 3) System.out.println("    ... and more.");
 
-                System.out.println("  Tab Settings ("+ cps.getTabSettings().size() \+"):");  
-                 cps.getTabSettings().stream().limit(3).forEach(ts \-\>  
-                    System.out.println("    \- Tab: " \+ ts.getTabLabel()+ " (" \+ ts.getTabNameOrId() \+ "), Visibility: " \+ ts.getVisibility())  
+                System.out.println("  Tab Settings ("+ cps.getTabSettings().size() +"):");  
+                 cps.getTabSettings().stream().limit(3).forEach(ts ->  
+                    System.out.println("    - Tab: " + ts.getTabLabel()+ " (" + ts.getTabNameOrId() + "), Visibility: " + ts.getVisibility())  
                 );  
-                if (cps.getTabSettings().size() \> 3\) System.out.println("    ... and more.");
+                if (cps.getTabSettings().size() > 3) System.out.println("    ... and more.");
 
-                System.out.println("  Connected App Accesses ("+ cps.getConnectedAppAccesses().size() \+"):");  
-                cps.getConnectedAppAccesses().stream().limit(3).forEach(ca \-\>  
-                    System.out.println("    \- Connected App: " \+ ca.getConnectedAppLabel() \+ " (" \+ ca.getConnectedAppName() \+ ")")  
+                System.out.println("  Connected App Accesses ("+ cps.getConnectedAppAccesses().size() +"):");  
+                cps.getConnectedAppAccesses().stream().limit(3).forEach(ca ->  
+                    System.out.println("    - Connected App: " + ca.getConnectedAppLabel() + " (" + ca.getConnectedAppName() + ")")  
                 );  
-                if (cps.getConnectedAppAccesses().size() \> 3\) System.out.println("    ... and more.");
+                if (cps.getConnectedAppAccesses().size() > 3) System.out.println("    ... and more.");
 
-                System.out.println("  Service Presence Status Accesses ("+ cps.getServicePresenceStatusAccesses().size() \+"):");  
-                cps.getServicePresenceStatusAccesses().stream().limit(3).forEach(sps \-\>  
-                    System.out.println("    \- Status: " \+ sps.getStatusMasterLabel() \+ " (" \+ sps.getStatusDeveloperName() \+ ")")  
+                System.out.println("  Service Presence Status Accesses ("+ cps.getServicePresenceStatusAccesses().size() +"):");  
+                cps.getServicePresenceStatusAccesses().stream().limit(3).forEach(sps ->  
+                    System.out.println("    - Status: " + sps.getStatusMasterLabel() + " (" + sps.getStatusDeveloperName() + ")")  
                 );  
-                 if (cps.getServicePresenceStatusAccesses().size() \> 3\) System.out.println("    ... and more.");
+                 if (cps.getServicePresenceStatusAccesses().size() > 3) System.out.println("    ... and more.");
 
                 // ApplicationVisibilities are not fully populated in this example, add print if implemented  
-                if (\!cps.getApplicationVisibilities().isEmpty()){  
-                    System.out.println("  Application Visibilities ("+ cps.getApplicationVisibilities().size() \+"):");  
-                    cps.getApplicationVisibilities().stream().limit(3).forEach(app \-\>  
-                        System.out.println("    \- App: " \+ app.getApplicationLabel() \+ " (Name: " \+ app.getApplicationName() \+ ", Type: " \+ app.getApplicationType() \+ ")")  
+                if (!cps.getApplicationVisibilities().isEmpty()){  
+                    System.out.println("  Application Visibilities ("+ cps.getApplicationVisibilities().size() +"):");  
+                    cps.getApplicationVisibilities().stream().limit(3).forEach(app ->  
+                        System.out.println("    - App: " + app.getApplicationLabel() + " (Name: " + app.getApplicationName() + ", Type: " + app.getApplicationType() + ")")  
                     );  
-                    if (cps.getApplicationVisibilities().size() \> 3\) System.out.println("    ... and more.");  
+                    if (cps.getApplicationVisibilities().size() > 3) System.out.println("    ... and more.");  
                 }
 
                 System.out.println("=======================================================");  
             }
 
         } catch (ConnectionException e) {  
-            System.err.println("Salesforce Connection/Query Error: " \+ e.getMessage());  
+            System.err.println("Salesforce Connection/Query Error: " + e.getMessage());  
             e.printStackTrace();  
         } catch (Exception e) {  
-            System.err.println("An unexpected error occurred: " \+ e.getMessage());  
+            System.err.println("An unexpected error occurred: " + e.getMessage());  
             e.printStackTrace();  
         }  
     }  
