@@ -24,8 +24,8 @@ This phase involves connecting to Salesforce and executing SOQL queries to fetch
 
 **1.1. Establish Salesforce Connection**
 
-Extrait de code
 
+```java
 import com.sforce.soap.partner.PartnerConnection;  
 import com.sforce.soap.partner.Connector;  
 import com.sforce.soap.partner.DescribeSObjectResult;  
@@ -675,7 +675,7 @@ public class SalesforcePermissionSetExtractor {
         }  
     }  
 }
-
+```
 Key Implementation Details and Considerations:
 
 * Batching Queries: For fetching related details (ObjectPermissions, FieldPermissions, etc.), if you have many PermissionSet IDs, the WHERE ParentId IN (...) clause can become too long or hit SOQL limits. You'll need to batch the permissionSetIds list (e.g., into chunks of 200\) and run the queries multiple times, aggregating the results. The provided code uses queryAll for simplicity which handles pagination but not explicit batching of ID sets for IN clauses.  
